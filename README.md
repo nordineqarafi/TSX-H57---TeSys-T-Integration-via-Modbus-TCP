@@ -110,28 +110,6 @@ The implemented I/O Scanner entries used **write length = 0**, so this project f
 | Unexpected measurement values | Check register alignment, scaling, 32-bit word order and measurement range |
 | PLC-to-PC upload unavailable | Confirm that upload information exists in the PLC project |
 
-## Repository contents
-
-Suggested repository structure:
-
-```text
-.
-├── README.md
-├── docs/
-│   ├── architecture.md
-│   ├── io-scanning.md
-│   └── troubleshooting.md
-├── images/
-│   └── project-screenshots/
-└── reference/
-    └── Configuration_and_validation_of_Modbus_TCP_report.pdf
-```
-
-- `docs/architecture.md` — hardware, addressing and communication architecture.
-- `docs/io-scanning.md` — I/O Scanner rows, register mapping and PLC memory organization.
-- `docs/troubleshooting.md` — commissioning checks and common communication issues.
-- `images/project-screenshots/` — Control Expert, ping, port-test and hardware screenshots.
-- `reference/Configuration_and_validation_of_Modbus_TCP_report.pdf` — complete project report.
 
 ## Main tools and technologies
 
